@@ -9,10 +9,10 @@
 
 ## Autores
 
-* [**Caballero Chocano, Rodrigo**]()
-* [**Llaro Castro, Diego**]()
-* [**Ocón Tovar, Sara**]()
-* [**Sebastián Ríos, Wilder**]()
+* [**Caballero Chocano, Rodrigo**](https://github.com/Fergos14)
+* [**Llaro Castro, Diego**](https://github.com/DLlaro)
+* [**Ocón Tovar, Sara**](https://github.com/saraocon)
+* [**Sebastián Ríos, Wilder**](https://github.com/WilderSr99)
 
 ## Descripcion General
 
