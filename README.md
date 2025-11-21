@@ -29,3 +29,5 @@ En este Entorno:
 
 ## **2. Entorno NO Controlado (Costa)**  
 Los centros poblados rurales de la costa no son identificados a simple vista, existe dispersión de casas y conglomerados al mismo tiempo.
+* Se desarrollo un modelo que identifique dichos centros pobladosy se implementó un prototipo funcional que exporte las delimitaciones inferidas.
+  * Para este enfoque se desarrollo un modelo de [segmentación semántica](Delimitacion_de_CCPP) **(referido en la documentación como SSCosta)** con un postprocesamiento a través de regresión logística.
