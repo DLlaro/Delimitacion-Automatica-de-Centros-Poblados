@@ -74,7 +74,7 @@
             tableLayoutPanel1.SetColumnSpan(btnTiff, 2);
             btnTiff.Dock = DockStyle.Fill;
             btnTiff.Location = new Point(64, 4);
-            btnTiff.Margin = new Padding(4, 4, 4, 4);
+            btnTiff.Margin = new Padding(4);
             btnTiff.Name = "btnTiff";
             btnTiff.Size = new Size(111, 61);
             btnTiff.TabIndex = 0;
@@ -88,7 +88,7 @@
             tableLayoutPanel1.SetColumnSpan(btnPuntos, 2);
             btnPuntos.Dock = DockStyle.Fill;
             btnPuntos.Location = new Point(64, 73);
-            btnPuntos.Margin = new Padding(4, 4, 4, 4);
+            btnPuntos.Margin = new Padding(4);
             btnPuntos.Name = "btnPuntos";
             btnPuntos.Size = new Size(111, 56);
             btnPuntos.TabIndex = 1;
@@ -101,7 +101,7 @@
             tableLayoutPanel1.SetColumnSpan(txtTiff, 15);
             txtTiff.Dock = DockStyle.Fill;
             txtTiff.Location = new Point(183, 4);
-            txtTiff.Margin = new Padding(4, 4, 4, 4);
+            txtTiff.Margin = new Padding(4);
             txtTiff.Name = "txtTiff";
             txtTiff.ReadOnly = true;
             txtTiff.Size = new Size(892, 27);
@@ -112,7 +112,7 @@
             tableLayoutPanel1.SetColumnSpan(txtPuntos, 15);
             txtPuntos.Dock = DockStyle.Fill;
             txtPuntos.Location = new Point(183, 73);
-            txtPuntos.Margin = new Padding(4, 4, 4, 4);
+            txtPuntos.Margin = new Padding(4);
             txtPuntos.Name = "txtPuntos";
             txtPuntos.ReadOnly = true;
             txtPuntos.Size = new Size(892, 27);
@@ -123,7 +123,7 @@
             picBoxOriginal.BorderStyle = BorderStyle.FixedSingle;
             picBoxOriginal.Dock = DockStyle.Fill;
             picBoxOriginal.Location = new Point(4, 26);
-            picBoxOriginal.Margin = new Padding(4, 4, 4, 4);
+            picBoxOriginal.Margin = new Padding(4);
             picBoxOriginal.Name = "picBoxOriginal";
             tableLayoutPanel2.SetRowSpan(picBoxOriginal, 3);
             picBoxOriginal.Size = new Size(346, 354);
@@ -136,7 +136,7 @@
             picBoxPrediccion.BorderStyle = BorderStyle.FixedSingle;
             picBoxPrediccion.Dock = DockStyle.Fill;
             picBoxPrediccion.Location = new Point(712, 26);
-            picBoxPrediccion.Margin = new Padding(4, 4, 4, 4);
+            picBoxPrediccion.Margin = new Padding(4);
             picBoxPrediccion.Name = "picBoxPrediccion";
             tableLayoutPanel2.SetRowSpan(picBoxPrediccion, 3);
             picBoxPrediccion.Size = new Size(347, 354);
@@ -149,7 +149,7 @@
             tableLayoutPanel1.SetColumnSpan(txtSalida, 14);
             txtSalida.Dock = DockStyle.Fill;
             txtSalida.Location = new Point(183, 137);
-            txtSalida.Margin = new Padding(4, 4, 4, 4);
+            txtSalida.Margin = new Padding(4);
             txtSalida.Name = "txtSalida";
             txtSalida.Size = new Size(832, 27);
             txtSalida.TabIndex = 9;
@@ -159,7 +159,7 @@
             picBoxMask.BorderStyle = BorderStyle.FixedSingle;
             picBoxMask.Dock = DockStyle.Fill;
             picBoxMask.Location = new Point(358, 26);
-            picBoxMask.Margin = new Padding(4, 4, 4, 4);
+            picBoxMask.Margin = new Padding(4);
             picBoxMask.Name = "picBoxMask";
             tableLayoutPanel2.SetRowSpan(picBoxMask, 3);
             picBoxMask.Size = new Size(346, 354);
@@ -184,7 +184,7 @@
             // 
             btnSalida.Dock = DockStyle.Fill;
             btnSalida.Location = new Point(1023, 137);
-            btnSalida.Margin = new Padding(4, 4, 4, 4);
+            btnSalida.Margin = new Padding(4);
             btnSalida.Name = "btnSalida";
             btnSalida.Size = new Size(52, 35);
             btnSalida.TabIndex = 14;
@@ -199,9 +199,9 @@
             groupBox1.Controls.Add(tableLayoutPanel2);
             groupBox1.Dock = DockStyle.Fill;
             groupBox1.Location = new Point(64, 290);
-            groupBox1.Margin = new Padding(4, 4, 4, 4);
+            groupBox1.Margin = new Padding(4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new Padding(4, 4, 4, 4);
+            groupBox1.Padding = new Padding(4);
             tableLayoutPanel1.SetRowSpan(groupBox1, 7);
             groupBox1.Size = new Size(1071, 412);
             groupBox1.TabIndex = 16;
@@ -222,7 +222,7 @@
             tableLayoutPanel2.Controls.Add(label5, 1, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(4, 24);
-            tableLayoutPanel2.Margin = new Padding(4, 4, 4, 4);
+            tableLayoutPanel2.Margin = new Padding(4);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 4;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 6.29370642F));
@@ -315,7 +315,7 @@
             tableLayoutPanel1.Controls.Add(groupBox1, 1, 5);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(4, 4, 4, 4);
+            tableLayoutPanel1.Margin = new Padding(4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 20;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 8.263069F));
@@ -349,7 +349,7 @@
             tableLayoutPanel1.SetColumnSpan(richOutput, 14);
             richOutput.Dock = DockStyle.Fill;
             richOutput.Location = new Point(64, 710);
-            richOutput.Margin = new Padding(4, 4, 4, 4);
+            richOutput.Margin = new Padding(4);
             richOutput.Name = "richOutput";
             tableLayoutPanel1.SetRowSpan(richOutput, 6);
             richOutput.Size = new Size(831, 192);
@@ -364,7 +364,7 @@
             btnEjecutar.FlatAppearance.BorderSize = 3;
             btnEjecutar.FlatStyle = FlatStyle.System;
             btnEjecutar.Location = new Point(963, 769);
-            btnEjecutar.Margin = new Padding(4, 4, 4, 4);
+            btnEjecutar.Margin = new Padding(4);
             btnEjecutar.Name = "btnEjecutar";
             tableLayoutPanel1.SetRowSpan(btnEjecutar, 4);
             btnEjecutar.Size = new Size(172, 108);
@@ -379,9 +379,9 @@
             groupBox3.Controls.Add(tableLayoutPanel3);
             groupBox3.Dock = DockStyle.Fill;
             groupBox3.Location = new Point(64, 180);
-            groupBox3.Margin = new Padding(4, 4, 4, 4);
+            groupBox3.Margin = new Padding(4);
             groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new Padding(4, 4, 4, 4);
+            groupBox3.Padding = new Padding(4);
             tableLayoutPanel1.SetRowSpan(groupBox3, 2);
             groupBox3.Size = new Size(711, 102);
             groupBox3.TabIndex = 29;
@@ -406,7 +406,7 @@
             tableLayoutPanel3.Controls.Add(label7, 3, 0);
             tableLayoutPanel3.Dock = DockStyle.Left;
             tableLayoutPanel3.Location = new Point(4, 24);
-            tableLayoutPanel3.Margin = new Padding(4, 4, 4, 4);
+            tableLayoutPanel3.Margin = new Padding(4);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 2;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
@@ -431,7 +431,7 @@
             cheBoxInterseccion.Anchor = AnchorStyles.None;
             cheBoxInterseccion.AutoSize = true;
             cheBoxInterseccion.Location = new Point(353, 47);
-            cheBoxInterseccion.Margin = new Padding(4, 4, 4, 4);
+            cheBoxInterseccion.Margin = new Padding(4);
             cheBoxInterseccion.Name = "cheBoxInterseccion";
             cheBoxInterseccion.Size = new Size(18, 17);
             cheBoxInterseccion.TabIndex = 28;
@@ -444,7 +444,7 @@
             comBoxArea.FormattingEnabled = true;
             comBoxArea.Items.AddRange(new object[] { "1000", "2000", "4000", "6000" });
             comBoxArea.Location = new Point(397, 4);
-            comBoxArea.Margin = new Padding(4, 4, 4, 4);
+            comBoxArea.Margin = new Padding(4);
             comBoxArea.Name = "comBoxArea";
             comBoxArea.Size = new Size(112, 28);
             comBoxArea.TabIndex = 24;
@@ -456,7 +456,7 @@
             cboxHabilitarArea.Anchor = AnchorStyles.None;
             cboxHabilitarArea.AutoSize = true;
             cboxHabilitarArea.Location = new Point(353, 10);
-            cboxHabilitarArea.Margin = new Padding(4, 4, 4, 4);
+            cboxHabilitarArea.Margin = new Padding(4);
             cboxHabilitarArea.Name = "cboxHabilitarArea";
             cboxHabilitarArea.Size = new Size(18, 17);
             cboxHabilitarArea.TabIndex = 25;
@@ -481,7 +481,7 @@
             txtAreaMinima.BorderStyle = BorderStyle.FixedSingle;
             txtAreaMinima.Enabled = false;
             txtAreaMinima.Location = new Point(596, 5);
-            txtAreaMinima.Margin = new Padding(4, 4, 4, 4);
+            txtAreaMinima.Margin = new Padding(4);
             txtAreaMinima.Name = "txtAreaMinima";
             txtAreaMinima.Size = new Size(87, 27);
             txtAreaMinima.TabIndex = 23;
@@ -506,7 +506,7 @@
             ClientSize = new Size(1204, 961);
             Controls.Add(statusStrip1);
             Controls.Add(tableLayoutPanel1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Demarcación de CCPP Selva";
             ((System.ComponentModel.ISupportInitialize)picBoxOriginal).EndInit();
