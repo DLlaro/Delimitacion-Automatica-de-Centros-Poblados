@@ -19,7 +19,7 @@ app = Flask(__name__)
 # ========= CARGAR MODELO UNA SOLA VEZ =========
 print("Cargando modelo...")
 sys.stdout.flush()
-ruta = os.path.expandvars("$HOME/Unet/Sistema/model/unet_resnet34_v0.9sentinel_model")
+ruta = os.path.expandvars("$HOME/Unet/Sistema/model/unet_resnet34_v0.9sentinel_model.keras")
 
 nombre_modelo = os.path.splitext(os.path.basename(ruta))[0]
 
