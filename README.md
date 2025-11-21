@@ -23,12 +23,12 @@ Los centros poblados rurales de la selva son visibles a simple vista ya que se a
 
 En este Entorno:
 * Se desarrollo un modelo que identifique dichos centros pobladosy se implementó un prototipo funcional que exporte las delimitaciones inferidas.
-  * Para este enfoque se desarrollo un modelo de [segmentación semántica](Delimitacion_de_CCPP) **(referido en la documentación como SS)**.
+  * Para este enfoque se desarrollo un modelo de [segmentación semántica](https://github.com/DLlaro/Delimitacion-Automatica-de-Centros-Poblados/wiki/SI-Entrenamiento-Deteccion-Casas-Selva)**(referido en la documentación como SS)**.
 * Se entreno un modelo para la identificacion de casas en dichos centros poblados a fin de obtener un recuento del número de casas.
-  * Para este enfoque se desarrollo un modelo de [segmentación por instancias](SegmentacionInstancias) **(referido en la documentación como SI)**.
+  * Para este enfoque se desarrollo un modelo de [segmentación por instancias](https://github.com/DLlaro/Delimitacion-Automatica-de-Centros-Poblados/wiki/SS-Entrenamiento-Delimitacion-CCPP-Selva)**(referido en la documentación como SI)**.
 
 ## **2. Entorno NO Controlado (Costa)**  
 Los centros poblados rurales de la costa no son identificados a simple vista, existe dispersión de casas y conglomerados al mismo tiempo.
 * Se desarrollo un modelo que identifique dichos centros pobladosy se implementó un prototipo funcional que exporte las delimitaciones inferidas.
-  * Para este enfoque se desarrollo un modelo de [segmentación semántica](Delimitacion_de_CCPP) **(referido en la documentación como SSCosta)**.
+  * Para este enfoque se desarrollo un modelo de [segmentación semántica](https://github.com/DLlaro/Delimitacion-Automatica-de-Centros-Poblados/wiki/SSCosta-Entrenamiento-Delimitacion-CCPP-Costa) **(referido en la documentación como SSCosta)**.
   * Se desarrollo un modelo regresión logística, que permitiese vincular los polígonos formados con sus respectivos centros poblados como etapa de posprocesamiento.
