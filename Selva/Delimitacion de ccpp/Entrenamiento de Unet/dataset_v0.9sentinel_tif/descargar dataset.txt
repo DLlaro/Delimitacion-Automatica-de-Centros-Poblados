@@ -1,1 +1,3 @@
 https://drive.google.com/file/d/1aNqR0G9FO9_Vpmt7vNh-D4OQhn9wBxJj/view?usp=drive_link
+
+(Contains modified Copernicus Sentinel-2A data 2020, processed on 2023. Product: S2A_MSIL2A_20200912T151711_N0500_R125_T18LVR_20230402T194301. © European Union, Copernicus Programme.)
